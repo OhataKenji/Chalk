@@ -19,7 +19,8 @@
         "id": "chalk",
         "extensions": [
           ".ck"
-        ]
+        ],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
