@@ -14,6 +14,21 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "languages": [
+      {
+        "id": "chalk",
+        "extensions": [
+          ".ck"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "chalk",
+        "scopeName": "source.chalk",
+        "path": "./syntaxes/chalk.tmGrammar.json"
+      }
+    ],
     "commands": [
       {
         "command": "chalk.helloWorld",
